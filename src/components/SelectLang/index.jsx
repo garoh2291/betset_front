@@ -1,13 +1,14 @@
 import { MenuItem, Select } from "@mui/material";
 import React from "react";
 import { Am, Us } from "react-flags-select";
+import { getLang } from "../../helpers";
 import "./styles.css";
 
 export const SelectLang = ({ languageHandler }) => {
+  console.log(getLang());
   return (
     <Select
-      defaultValue={"en"}
-      sx={{ border: 0 }}
+      defaultValue={getLang()}
       className="country_wrap"
       onChange={languageHandler}
     >
