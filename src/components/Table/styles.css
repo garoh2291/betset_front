@@ -1,0 +1,8 @@
+.table_wrapper {
+  width: 100vw;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3e3e3;
+}

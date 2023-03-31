@@ -1,0 +1,36 @@
+.mobile_text_wrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #a91111;
+}
+
+.mobile_text_wrapper h3 {
+  text-transform: uppercase;
+  font-family: var(--unnamed-font-family-poppins);
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.mobile_text_wrapper p {
+  font-family: var(--unnamed-font-family-poppins);
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .mobile_text_wrapper h3 {
+    font-size: 14px;
+    line-height: 3em;
+  }
+
+  .mobile_text_wrapper p {
+    font-size: 14px;
+  }
+}

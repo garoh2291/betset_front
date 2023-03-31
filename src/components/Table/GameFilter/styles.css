@@ -1,0 +1,12 @@
+.game_filter_wrapper {
+  height: 100%;
+  border: 1px solid;
+}
+
+.game_filter_wrapper.half {
+  width: 5%;
+}
+
+.game_filter_wrapper.full {
+  width: 15%;
+}

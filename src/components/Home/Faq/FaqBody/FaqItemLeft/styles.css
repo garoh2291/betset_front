@@ -1,0 +1,17 @@
+.faq_item {
+  width: 48%;
+}
+.css-m7e2z-MuiPaper-root-MuiAccordion-root:before {
+  display: none !important;
+}
+
+.accordion_item {
+  border-bottom: 1px solid #c7c7c7;
+  border-radius: 0 !important;
+}
+
+@media (max-width: 830px) {
+  .faq_item {
+    width: 100%;
+  }
+}

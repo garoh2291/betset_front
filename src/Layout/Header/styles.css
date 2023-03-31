@@ -6,3 +6,10 @@
   justify-content: center;
   background-color: transparent;
 }
+
+@media (max-width: 830px) {
+  .header_layout {
+    /* background-color: #d82d36; */
+    background: linear-gradient(to right, #b31120, #d92b38, #a00b1c);
+  }
+}
